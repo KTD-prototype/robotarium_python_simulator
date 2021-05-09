@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-import rps.utilities.misc as misc
+import utilities.misc as misc
 
 # RobotariumABC: This is an interface for the Robotarium class that
 # ensures the simulator and the robots match up properly.  

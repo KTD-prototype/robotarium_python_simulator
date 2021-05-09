@@ -4,7 +4,7 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
-from rps.robotarium_abc import *
+from robotarium_abc import *
 
 # Robotarium This object provides routines to interface with the Robotarium.
 #

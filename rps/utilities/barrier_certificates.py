@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(".."))
 from cvxopt import matrix
 from cvxopt.blas import dot
 from cvxopt.solvers import qp, options
@@ -10,7 +13,7 @@ import itertools
 import numpy as np
 from scipy.special import comb
 
-from rps.utilities.transformations import *
+from utilities.transformations import *
 
 # Disable output of CVXOPT
 options['show_progress'] = False
